@@ -1,0 +1,52 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+@keyframes hover {
+  from {
+  	width: 11%;
+	opacity: 0.1;
+  }
+  to {
+  	width: 66%;
+    opacity: 1.0;
+  }
+}
+
+
+img.center {
+	width: 66%;
+	opacity: 1.0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	animation-name: hover;
+	animation-duration: 800ms;
+	animation-play-state: paused;
+}
+
+img.center:active,
+img.center:focus,
+img.center:hover {
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+}
+
+.footer {
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
