@@ -1,1 +1,1 @@
-appcfg.py -A scotty-brake
+appcfg.py update -A "scotty-brake"
