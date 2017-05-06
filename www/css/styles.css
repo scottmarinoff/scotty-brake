@@ -28,13 +28,8 @@ img.center {
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 	animation-name: hover;
-<<<<<<< HEAD
 	animation-duration: 1100ms;
-	/*animation-play-state: paused;*/
-=======
-	animation-duration: 800ms;
 	animation-play-state: paused;
->>>>>>> parent of aec7a33... Updated cover image animation speed
 }
 
 img.center:active,
