@@ -10,7 +10,7 @@ body {
 @keyframes hover {
   from {
   	width: 10%;
-	opacity: 0.8;
+	opacity: 0.05;
   }
   to {
   	width: 80%;
