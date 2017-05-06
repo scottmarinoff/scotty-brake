@@ -9,18 +9,18 @@ body {
 
 @keyframes hover {
   from {
-  	width: 11%;
-	opacity: 0.1;
+  	width: 10%;
+	opacity: 0.8;
   }
   to {
-  	width: 66%;
+  	width: 80%;
     opacity: 1.0;
   }
 }
 
 
 img.center {
-	width: 66%;
+	width: 80%;
 	opacity: 1.0;
 	position: absolute;
 	top: 50%;
