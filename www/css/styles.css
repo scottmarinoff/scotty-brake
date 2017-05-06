@@ -37,6 +37,10 @@
   animation-name: bounceInLeft;
 }
 
+element.style {
+    zoom: 1;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -45,11 +49,11 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+  display: inline-block;
+  vertical-align: middle;
   margin: 0;
   padding: 0;
   position: relative;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .footer {
