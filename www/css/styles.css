@@ -62,8 +62,9 @@ body {
   position: relative;
 }
 img.cover {
-  position: relative;
+  position: absolute;
   top: 50%;
+  left: 50%;
   transform: perspective(1px) translateY(-50%);
 }
 
